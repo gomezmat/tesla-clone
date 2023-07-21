@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HomeHeader from "../components/HomeHeader.astro";
+import HeroSection from "../components/HeroSection.astro";
+import Model3 from "../components/Model3.astro";
+import ModeloY from "../components/ModeloY.astro";
+import ModelS from "../components/ModelS.astro";
+import ModelX from "../components/ModelX.astro";
+import SolarPanels from "../components/SolarPanels.astro";
+import SolarRoof from "../components/SolarRoof.astro";
+import Powerwall from "../components/Powerwall.astro";
+import Accessories from "../components/Accessories.astro";
+---
+
+<Layout title="Tesla Clone">
+  <HomeHeader />
+  <main
+    class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth"
+  >
+    <div class="snap-center">
+      <HeroSection />
+    </div>
+    <div class="snap-center">
+      <Model3 />
+    </div>
+    <div class="snap-center">
+      <ModeloY />
+    </div>
+    <div class="snap-center">
+      <ModelS />
+    </div>
+    <div class="snap-center">
+      <ModelX />
+    </div>
+    <div class="snap-center">
+      <SolarPanels />
+    </div>
+    <div class="snap-center">
+      <SolarRoof />
+    </div>
+    <div class="snap-center">
+      <Powerwall />
+    </div>
+    <div class="snap-center">
+      <Accessories />
+    </div>
+  </main>
+</Layout>

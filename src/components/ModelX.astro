@@ -1,0 +1,23 @@
+---
+import Section from "../components/Section.astro";
+---
+
+<Section title="Model X" subtitle="Explore Inventory" color="black">
+  <div slot="buttons" class="gap-x-6 flex mx-auto">
+    <a
+      class="bg-white text-sm rounded font-medium px-12 py-2 inline-flex justify-center items-center hover:border-white hover:bg-gray-100"
+      href="">Custom Order</a
+    >
+    <a
+      class="bg-black/30 backdrop-blur-xl text-sm rounded font-medium text-white px-12 py-2 inline-flex justify-center items-center hover:bg-gray-600 hover:text-white transition"
+      href="">Demo Drive</a
+    >
+  </div>
+
+  <img
+    slot="bg-section"
+    src="./Model-X.avif"
+    alt="Model X"
+    class="w-full h-full object-cover"
+  />
+</Section>
